@@ -49,7 +49,7 @@ const BookingForm = () => {
     };
 
     try {
-      const response = await fetch("https://car-rentalbackend-3.onrender.com/book-car", {
+      const response = await fetch("https://car-rentalbackend-4.onrender.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
