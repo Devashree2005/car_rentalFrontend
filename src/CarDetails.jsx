@@ -125,7 +125,7 @@ const CarDetails = () => {
     };
 
     try {
-      const response = await fetch("http://localhost:3002/book-car", {
+      const response = await fetch("https://car-rentalbackend-3.onrender.com/book-car", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

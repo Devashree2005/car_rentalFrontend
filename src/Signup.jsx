@@ -15,7 +15,7 @@ const Signup = () => {
     event.preventDefault();
     console.log('Event triggered');
     try {
-      const req = await axios.post('http://localhost:3002/signup', {
+      const req = await axios.post('https://car-rentalbackend-3.onrender.com/signup', {
         firstName: firstname,
         lastName: lastname,
         userName: username,
